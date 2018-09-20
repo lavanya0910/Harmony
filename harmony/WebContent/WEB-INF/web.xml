@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Harmony</display-name>
+  <welcome-file-list>
+    <welcome-file>register.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <param-name>host</param-name>
+    <param-value>smtp.gmail.com</param-value>
+  </context-param>
+  <context-param>
+    <param-name>port</param-name>
+    <param-value>587</param-value>
+  </context-param>
+  <context-param>
+    <param-name>user</param-name>
+    <param-value>harmony2019@christuniversity.in</param-value>
+  </context-param>
+  <context-param>
+    <param-name>pass</param-name>
+    <param-value>2019@harmony</param-value>
+  </context-param>
+  <context-param>
+    <param-name>ccadd</param-name>
+    <param-value>arunsaha20@hotmail.com</param-value>
+  </context-param>
+  <context-param>
+    <description>Location to store uploaded file</description>
+    <param-name>file-upload</param-name>
+    <param-value>
+       J:\harmony\WebContent\papers\
+      </param-value>
+  </context-param>
+  <context-param>
+    <param-name>temp</param-name>
+    <param-value>
+       &quot;C:\Users\JONATH~1\AppData\Local\Temp\
+      </param-value>
+  </context-param>
+  <context-param>
+    <description>Location to store uploaded file</description>
+    <param-name>file-upload2</param-name>
+    <param-value>
+       J:\harmony\WebContent\ApprovedPaper\
+      </param-value>
+  </context-param>
+</web-app>
